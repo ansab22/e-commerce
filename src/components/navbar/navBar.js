@@ -1,4 +1,5 @@
 import Container from "react-bootstrap/Container";
+import React, { useEffect } from "react";
 import styles from "@/components/navbar/styles/navBar.module.css";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -7,9 +8,7 @@ import styled from "styled-components";
 import { faBarsStaggered } from "@fortawesome/free-solid-svg-icons"; // Example of a "half-show" icon
 import {
   faCartShopping,
-  faPersonRifle,
   faSearch,
-  faSignInAlt,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -52,26 +51,28 @@ function navBar() {
 
   // Toogle Edit Button
 
-  const customStyles = `
-        .custom-toggle {
-          border: none !important; /* Remove the default border */
-          outline: none !important; /* Remove the outline */
-          box-shadow: none !important; /* Remove any box shadow */
-          padding: 0.5rem; /* Add some padding */
-        }
-      
-        .custom-toggle .navbar-toggler-icon {
-          background-image: none; /* Remove the default Bootstrap icon */
-        }
-      
-        .custom-toggle:hover {
-          background-color: transparent; /* Remove background on hover */
-        }
-      `;
-  const styleSheet = document.createElement("style");
-  styleSheet.type = "text/css";
-  styleSheet.innerText = customStyles;
-  document.head.appendChild(styleSheet);
+  useEffect(() => {
+    // Add the custom styles to the document
+    const styleSheet = document.createElement("style");
+    styleSheet.type = "text/css";
+    styleSheet.innerText = `
+      .custom-toggle {
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+        padding: 0.5rem;
+      }
+
+      .custom-toggle .navbar-toggler-icon {
+        background-image: none;
+      }
+
+      .custom-toggle:hover {
+        background-color: transparent;
+      }
+    `;
+    document.head.appendChild(styleSheet);
+  }, []); // Empty dependency array ensures this runs only once on mount
 
   return (
     <Navbar expand="lg">
