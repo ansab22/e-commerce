@@ -1,6 +1,5 @@
 import Container from "react-bootstrap/Container";
 import React, { useEffect } from "react";
-import styles from "@/components/navbar/styles/navBar.module.css";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
