@@ -1,8 +1,8 @@
 import React from "react";
-import About from "@/components/about/about";
+import About from "@/components/about/aboutUs";
 import WhyChooseUs from "@/components/about/whyChooseUs";
 import BeforeFoter from "@/components/home/beforeFoter";
-function aboutus() {
+function aboutUs() {
   return (
     <>
       <About />
@@ -12,4 +12,4 @@ function aboutus() {
   );
 }
 
-export default aboutus;
+export default aboutUs;

@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "@/components/about/styles/about.module.css";
+import styles from "@/components/about/styles/aboutUs.module.css";
 
-function about() {
+function aboutUs() {
   return (
     <>
       <div className={styles.about_con}>
@@ -47,4 +47,4 @@ function about() {
   );
 }
 
-export default about;
+export default aboutUs;
