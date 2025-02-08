@@ -1,0 +1,146 @@
+.whyChooseUs_con {
+  width: 100%;
+  margin: 30px 0 100px;
+}
+.whyChooseUs_row {
+  width: 87%;
+  margin: auto;
+}
+.text_why_Choose_Us {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+.h1_whyChooseUs {
+  font-size: 30px;
+  font-weight: 600;
+  color: #171717;
+}
+.hr_line {
+  width: 35px;
+  height: 2px;
+  background: #414141 !important;
+}
+.why_choose_colums_div {
+  width: 100%;
+  display: flex;
+  margin: 50px 0 0;
+}
+.choose_colums1,
+.choose_colums2,
+.choose_colums3 {
+  width: 33.33%;
+  padding: 50px 25px;
+  border: 1px solid #ababab;
+  gap: 20px;
+}
+.choose_colums1 h4,
+.choose_colums2 h4,
+.choose_colums3 h4 {
+  color: #2a2a2a;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.choose_colums1 p,
+.choose_colums2 p,
+.choose_colums3 p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6d6d6d;
+}
+@media (max-width: 1030px) {
+  .whyChooseUs_row {
+    width: 90%;
+    margin: auto;
+  }
+  .h1_whyChooseUs {
+    font-size: 28px;
+  }
+  .hr_line {
+    width: 40px;
+  }
+  .why_choose_colums_div {
+    margin: 30px 0 0;
+  }
+  .choose_colums1,
+  .choose_colums2,
+  .choose_colums3 {
+    padding: 40px 25px;
+  }
+  .choose_colums1 h4,
+  .choose_colums2 h4,
+  .choose_colums3 h4 {
+    font-size: 14px;
+  }
+  .choose_colums1 p,
+  .choose_colums2 p,
+  .choose_colums3 p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 800px) {
+  .whyChooseUs_row {
+    width: 90%;
+    margin: auto;
+  }
+  .h1_whyChooseUs {
+    font-size: 28px;
+  }
+  .hr_line {
+    width: 30px;
+  }
+  .why_choose_colums_div {
+    margin: 30px 0 0;
+  }
+  .choose_colums1,
+  .choose_colums2,
+  .choose_colums3 {
+    padding: 40px 18px 30px;
+  }
+  .choose_colums1 h4,
+  .choose_colums2 h4,
+  .choose_colums3 h4 {
+    font-size: 11px;
+  }
+  .choose_colums1 p,
+  .choose_colums2 p,
+  .choose_colums3 p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .whyChooseUs_con {
+    width: 100%;
+    margin: 30px 0;
+  }
+  .h1_whyChooseUs {
+    font-size: 20px;
+  }
+  .hr_line {
+    width: 22px;
+  }
+  .why_choose_colums_div {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0;
+  }
+  .choose_colums1,
+  .choose_colums2,
+  .choose_colums3 {
+    width: 100%;
+    text-align: center;
+    padding: 30px 25px 20px;
+  }
+  .choose_colums1 h4,
+  .choose_colums2 h4,
+  .choose_colums3 h4 {
+    font-size: 12px;
+  }
+  .choose_colums1 p,
+  .choose_colums2 p,
+  .choose_colums3 p {
+    font-size: 10px;
+  }
+}

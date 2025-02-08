@@ -3,15 +3,16 @@ import styles from "@/components/home/styles/bestSeller.module.css";
 function bestSeller() {
   return (
     <>
-      <div className={styles.latestCollection_con}>
-        <div className={styles.latestCollection_row}>
+      <div className={styles.bestseller_con}>
+        <div className={styles.bestseller_row}>
           <div className={styles.text_div}>
-            <h1 className={styles.h1_collection}>
-              <span style={{ color: "#707070" }}>Best</span> Seller
+            <h1 className={styles.h1_bestseller}>
+              <span style={{ color: "#707070", fontWeight: "400" }}>Best</span>{" "}
+              Seller
             </h1>
             <p className={styles.hr_line}></p>
           </div>
-          <p className={styles.text_collection}>
+          <p className={styles.text_bestseller}>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>

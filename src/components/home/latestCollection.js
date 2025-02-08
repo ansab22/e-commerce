@@ -8,7 +8,10 @@ function latestCollection() {
         <div className={styles.latestCollection_row}>
           <div className={styles.text_div}>
             <h1 className={styles.h1_collection}>
-              <span style={{ color: "#707070" }}>Latest</span> Collections
+              <span style={{ color: "#707070", fontWeight: "400" }}>
+                Latest
+              </span>{" "}
+              Collections
             </h1>
             <p className={styles.hr_line}></p>
           </div>

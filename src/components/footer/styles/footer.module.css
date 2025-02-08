@@ -1,0 +1,138 @@
+.footer_con {
+  width: 100%;
+}
+.footer_row {
+  width: 87%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.footer_colums {
+  width: 100%;
+  display: flex;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.footer_col1 {
+  width: 50%;
+}
+.logo_para {
+  font-size: 18px;
+  padding: 5px 0;
+  color: #595959;
+}
+.footer_col2,
+.footer_col3 {
+  width: 25%;
+  text-align: center;
+}
+.Company_h4,
+.Touch_h4 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.page_list,
+.Touch_list {
+  list-style: none;
+  padding: 10px 0;
+}
+.page_link,
+.Touch_link {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 5px 0;
+  color: #595959;
+  cursor: pointer;
+}
+.page_link:hover,
+.Touch_link:hover {
+  color: #000;
+}
+.copyWrite {
+  display: flex;
+  padding: 10px 0 0;
+  justify-content: center;
+}
+.copyWrite p {
+  color: #565656;
+  font-size: 18px;
+  font-weight: 400;
+}
+@media (max-width: 1030px) {
+  .footer_colums {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  .footer_col1,
+  .footer_col2,
+  .footer_col3 {
+    width: 100%;
+    text-align: left;
+  }
+  .logo_para {
+    font-size: 16px;
+    padding: 5px 0;
+    color: #595959;
+  }
+  .Company_h4,
+  .Touch_h4 {
+    font-size: 18px;
+  }
+  .page_list,
+  .Touch_list {
+    padding: 5px 0;
+  }
+  .page_link,
+  .Touch_link {
+    font-size: 16px;
+    padding: 3px 0;
+  }
+  .copyWrite p {
+    text-align: center;
+    color: #565656;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+@media (max-width: 430px) {
+  .footer_colums {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #bdbdbd;
+  }
+  .footer_col1,
+  .footer_col2,
+  .footer_col3 {
+    width: 100%;
+    text-align: left;
+  }
+  .logo_para {
+    font-size: 12px;
+    padding: 5px 0;
+    color: #595959;
+  }
+  .Company_h4,
+  .Touch_h4 {
+    font-size: 14px;
+  }
+  .page_list,
+  .Touch_list {
+    padding: 0px 0;
+  }
+  .page_link,
+  .Touch_link {
+    font-size: 12px;
+    padding: 2px 0;
+  }
+  .copyWrite p {
+    text-align: center;
+    color: #565656;
+    font-size: 10px;
+    font-weight: 400;
+  }
+}
