@@ -1,0 +1,14 @@
+.productDescrip_con {
+  width: 100%;
+}
+.productDescrip_row {
+  display: flex;
+  width: 87%;
+  margin: auto;
+  gap: 20px;
+}
+.tabContent {
+  font-size: 1.1vw;
+  color: #555555;
+  padding: 12px;
+}
